@@ -70,6 +70,7 @@ export default class UnityView extends React.Component<RNUnityViewProps> {
   }
 
   render() {
+    // @ts-ignore
     return <NativeUnityView ref={this.ref} {...this.getProps()} />;
   }
 }
